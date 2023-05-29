@@ -12,7 +12,7 @@ myImage.onclick = () => {
   }
 };
 
-let myButton = document.querySelector("button");
+let myButton = document.querySelector("#changeUsernameBtn");
 //let myHeading = document.querySelector("h1");
 function setUserName() {
     const myName = prompt("Please enter your name.");
@@ -34,3 +34,5 @@ myHeading.textContent = `Mozilla is cool, ${storedName}`;
 myButton.onclick = () => {
     setUserName();
   };
+
+const submitBtn = document.querySelector("#submitBtn");
